@@ -1,5 +1,6 @@
 package base
 
+import dec02.Dec02
 import java.io.File
 
 abstract class BaseSolver {

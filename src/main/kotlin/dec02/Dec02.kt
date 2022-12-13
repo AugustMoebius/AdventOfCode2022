@@ -1,6 +1,7 @@
 package dec02
 
 import base.BaseSolver
+import dec01.Dec01
 
 class Dec02: BaseSolver() {
 
@@ -141,9 +142,8 @@ class Dec02: BaseSolver() {
         }
         println("part2: $score")
     }
+}
 
-    fun main(args: Array<String>) {
-        Dec02().solve();
-    }
-
+fun main() {
+    Dec02().solve();
 }
